@@ -123,18 +123,16 @@
     .fs_grid_column_base;
     .fs_grid_column(1, 1);
 
-    flex-basis: auto;
     margin-left: var(--fs-grid-gutter);
     margin-right: var(--fs-grid-gutter);
   }
 
   .fs_grid_cell_padded {
-    --fs-grid-gutter: 0px;
-    --padding: @fs-grid-gutter;
-
-    // box-sizing: content-box;
-    padding-left: var(--padding);
-    padding-right: var(--padding);
+    box-sizing: content-box;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: var(--fs-grid-gutter);
+    padding-right: var(--fs-grid-gutter);
   }
 
   .fs_grid_cell_contained {
@@ -285,6 +283,7 @@
     min-width: 0;
 
     flex: 0 0 calc( ( (100% / var(--cell-total)) * var(--cell-count) ) - (var(--fs-grid-gutter) * 2) );
+    flex-basis: auto;
   }
 
   .fs_grid_column(@total, @count) {
