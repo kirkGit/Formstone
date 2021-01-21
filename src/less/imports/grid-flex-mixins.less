@@ -3,6 +3,8 @@
 
   .fs_grid_row() {
     // !Row Default
+    width: 96%;
+    width: calc(100% - var(--fs-grid-sm-edge));
     min-width: var(--fs-grid-width-xs);
 
     display: flex;
@@ -10,39 +12,39 @@
     margin-left: auto;
     margin-right: auto;
 
-    // !Sm fluid
-    @media screen and (max-width: (@fs-grid-width-break-md - 1px)) {
-      .fs_grid_row_fluid;
-    }
+    // // !Sm fluid
+    // @media screen and (max-width: (@fs-grid-width-break-md - 1px)) {
+    //   .fs_grid_row_fluid;
+    // }
 
-    @media screen and (min-width: @fs-grid-width-break-md) {
-      width: var(--fs-grid-width-md);
-    }
+    // @media screen and (min-width: @fs-grid-width-break-md) {
+    //   width: var(--fs-grid-width-md);
+    // }
 
-    @media screen and (min-width: @fs-grid-width-break-lg) {
-      width: var(--fs-grid-width-lg);
-    }
+    // @media screen and (min-width: @fs-grid-width-break-lg) {
+    //   width: var(--fs-grid-width-lg);
+    // }
 
-    @media screen and (min-width: @fs-grid-width-break-xl) {
-      width: var(--fs-grid-width-xl);
-    }
+    // @media screen and (min-width: @fs-grid-width-break-xl) {
+    //   width: var(--fs-grid-width-xl);
+    // }
   }
 
-  .fs_grid_row_fluid() {
-    width: 96%;
-    width: calc(100% - var(--fs-grid-sm-edge));
-  }
+  // .fs_grid_row_fluid() {
+  //   width: 96%;
+  //   width: calc(100% - var(--fs-grid-sm-edge));
+  // }
 
-  .fs_grid_row_adaptive() {
+  // .fs_grid_row_adaptive() {
 
-    @media screen and (max-width: (@fs-grid-width-break-sm - 1px)) {
-      width: var(--fs-grid-width-xs);
-    }
+  //   @media screen and (max-width: (@fs-grid-width-break-sm - 1px)) {
+  //     width: var(--fs-grid-width-xs);
+  //   }
 
-    @media screen and (min-width: @fs-grid-width-break-sm) and (max-width: (@fs-grid-width-break-md - 1px)) {
-      width: var(--fs-grid-width-sm);
-    }
-  }
+  //   @media screen and (min-width: @fs-grid-width-break-sm) and (max-width: (@fs-grid-width-break-md - 1px)) {
+  //     width: var(--fs-grid-width-sm);
+  //   }
+  // }
 
   // Reverse
 

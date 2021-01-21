@@ -1,4 +1,4 @@
-/*! formstone v1.4.18-1 [tabs.js] 2020-11-09 | GPL-3.0 License | formstone.it */
+/*! formstone v1.4.18-1 [tabs.js] 2020-12-11 | GPL-3.0 License | formstone.it */
 /* global define */
 
 (function(factory) {

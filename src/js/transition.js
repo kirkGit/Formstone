@@ -139,10 +139,11 @@
         el = el[0];
       }
 
-      if (Window.getComputedStyle) {
+      if (window.getComputedStyle) {
         // FireFox, Chrome, Safari
 
-        computed = Window.getComputedStyle(el, null);
+        console.log(el);
+        computed = window.getComputedStyle(el, null);
 
         for (var i = 0, count = computed.length; i < count; i++) {
           prop = computed[i];
@@ -226,9 +227,7 @@
       // Localize References
 
       Events = Plugin.events,
-      Functions = Plugin.functions,
-
-      Window = Formstone.window;
+      Functions = Plugin.functions;
 
   })
 

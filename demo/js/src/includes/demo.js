@@ -80,54 +80,54 @@
 
       // Destroy
 
-      $body.find(".js-background").background("destroy");
-      $body.find(".js-carousel").carousel("destroy");
-      $body.find(".js-checkbox, .js-radio, input[type=checkbox], input[type=radio]").checkbox("destroy");
-      $body.find(".js-checkpoint").checkpoint("destroy");
-      $body.find(".js-dropdown").dropdown("destroy");
-      $body.find(".js-equalize").equalize("destroy");
-      $body.find(".js-lightbox").lightbox("destroy");
-      $body.find(".js-navigation").navigation("destroy");
-      $body.find("input[type=number]").number("destroy");
-      $body.find(".js-pagination").pagination("destroy");
-      $body.find("input[type=range]").range("destroy");
-      $body.find(".js-scrollbar").scrollbar("destroy");
-      $body.find(".js-sticky").sticky("destroy");
-      $body.find(".js-swap").swap("destroy");
-      $body.find(".js-tabs").tabs("destroy");
-      $body.find(".js-tooltip").tooltip("destroy");
-      $body.find(".js-upload").upload("destroy");
-      $body.find(".js-viewer").viewer("destroy");
+      // $body.find(".js-background").background("destroy");
+      // $body.find(".js-carousel").carousel("destroy");
+      // $body.find(".js-checkbox, .js-radio, input[type=checkbox], input[type=radio]").checkbox("destroy");
+      // $body.find(".js-checkpoint").checkpoint("destroy");
+      // $body.find(".js-dropdown").dropdown("destroy");
+      // $body.find(".js-equalize").equalize("destroy");
+      // $body.find(".js-lightbox").lightbox("destroy");
+      // $body.find(".js-navigation").navigation("destroy");
+      // $body.find("input[type=number]").number("destroy");
+      // $body.find(".js-pagination").pagination("destroy");
+      // $body.find("input[type=range]").range("destroy");
+      // $body.find(".js-scrollbar").scrollbar("destroy");
+      // $body.find(".js-sticky").sticky("destroy");
+      // $body.find(".js-swap").swap("destroy");
+      // $body.find(".js-tabs").tabs("destroy");
+      // $body.find(".js-tooltip").tooltip("destroy");
+      // $body.find(".js-upload").upload("destroy");
+      // $body.find(".js-viewer").viewer("destroy");
 
       // Init
 
-      $body.find(".js-background").background(options);
-      $body.find(".js-carousel").carousel(options);
-      $body.find(".js-checkbox, .js-radio, input[type=checkbox], input[type=radio]").checkbox(options);
-      $body.find(".js-checkpoint").checkpoint();
-      $body.find(".js-dropdown").dropdown(options);
-      $body.find(".js-equalize").equalize(options);
-      $body.find(".js-lightbox").lightbox(options);
-      $body.find(".js-navigation").navigation(options);
-      $body.find("input[type=number]").number(options);
-      $body.find(".js-pagination").pagination(options);
-      $body.find("input[type=range]").range(options);
-      $body.find(".js-scrollbar").scrollbar(options);
-      $body.find(".js-sticky").sticky(options);
-      $body.find(".js-swap").swap(options);
-      $body.find(".js-tabs").tabs(options);
-      $body.find(".js-tooltip").tooltip(options);
-      $body.find(".js-upload").upload(options);
-      $body.find(".js-viewer").viewer(options);
+      // $body.find(".js-background").background(options);
+      // $body.find(".js-carousel").carousel(options);
+      // $body.find(".js-checkbox, .js-radio, input[type=checkbox], input[type=radio]").checkbox(options);
+      // $body.find(".js-checkpoint").checkpoint();
+      // $body.find(".js-dropdown").dropdown(options);
+      // $body.find(".js-equalize").equalize(options);
+      // $body.find(".js-lightbox").lightbox(options);
+      // $body.find(".js-navigation").navigation(options);
+      // $body.find("input[type=number]").number(options);
+      // $body.find(".js-pagination").pagination(options);
+      // $body.find("input[type=range]").range(options);
+      // $body.find(".js-scrollbar").scrollbar(options);
+      // $body.find(".js-sticky").sticky(options);
+      // $body.find(".js-swap").swap(options);
+      // $body.find(".js-tabs").tabs(options);
+      // $body.find(".js-tooltip").tooltip(options);
+      // $body.find(".js-upload").upload(options);
+      // $body.find(".js-viewer").viewer(options);
 
       // Demo Tabs
 
-      $body.find(".js-demo_tabs").off("update.tabs").tabs("destroy");
+      // $body.find(".js-demo_tabs").off("update.tabs").tabs("destroy");
 
-      $body.find(".js-demo_tabs").tabs({
-        mobileMaxWidth: "0px",
-        theme: "fs-demo"
-      }).on("update.tabs", resetPlugins);
+      // $body.find(".js-demo_tabs").tabs({
+      //   mobileMaxWidth: "0px",
+      //   theme: "fs-demo"
+      // }).on("update.tabs", resetPlugins);
     }
 
     function resetPlugins() {
@@ -135,13 +135,13 @@
           $content = $( $tab.attr("href") );
 
       $content.find(".js-background").background("resize");
-      $content.find(".js-carousel").carousel("resize");
-      $content.find(".js-equalize").equalize("resize");
-      $content.find("input[type=range]").range("resize");
-      $content.find(".js-scrollbar").scrollbar("resize");
+      // $content.find(".js-carousel").carousel("resize");
+      // $content.find(".js-equalize").equalize("resize");
+      // $content.find("input[type=range]").range("resize");
+      // $content.find(".js-scrollbar").scrollbar("resize");
 
-      $body.find(".js-checkpoint").checkpoint("resize");
-      $body.find(".js-sticky").sticky("resize");
+      // $body.find(".js-checkpoint").checkpoint("resize");
+      // $body.find(".js-sticky").sticky("resize");
     }
 
     // Ready

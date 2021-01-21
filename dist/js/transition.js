@@ -1,4 +1,4 @@
-/*! formstone v1.4.18-1 [transition.js] 2020-11-09 | GPL-3.0 License | formstone.it */
+/*! formstone v1.4.18-1 [transition.js] 2020-12-11 | GPL-3.0 License | formstone.it */
 /* global define */
 
 (function(factory) {
@@ -140,10 +140,11 @@
         el = el[0];
       }
 
-      if (Window.getComputedStyle) {
+      if (window.getComputedStyle) {
         // FireFox, Chrome, Safari
 
-        computed = Window.getComputedStyle(el, null);
+        console.log(el);
+        computed = window.getComputedStyle(el, null);
 
         for (var i = 0, count = computed.length; i < count; i++) {
           prop = computed[i];
@@ -227,9 +228,7 @@
       // Localize References
 
       Events = Plugin.events,
-      Functions = Plugin.functions,
-
-      Window = Formstone.window;
+      Functions = Plugin.functions;
 
   })
 
